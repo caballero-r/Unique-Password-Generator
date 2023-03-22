@@ -5,7 +5,7 @@
 
 
 ## Live URL
-
+https://caballero-r.github.io/Unique-Password-Generator/
 
 <img src="Develop/assets/images/screenshot.html.png" width=500 height=800 alt="preview of password generator">
 

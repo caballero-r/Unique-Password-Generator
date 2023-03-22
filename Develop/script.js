@@ -16,7 +16,7 @@ var password_length;
 function passwordLength() {
 
  // User chooses password character length from between 8 to 128 characters.
-  password_length = window.prompt ("Choose how many characters would you like this password to be? Please choose from a minimum of 8 to maximum of 128 characters.");
+  password_length = window.prompt ("Choose the desired length of your password? Please choose from a minimum of 8 to maximum of 128 characters in length.");
     
    if (password_length >= 8 && password_length <=128) {
     confirmCharacters();

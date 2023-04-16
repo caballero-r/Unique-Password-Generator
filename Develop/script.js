@@ -34,7 +34,7 @@ var passwordCriteria = ""
 // User chooses the characters they want in their password.
 function confirmCharacters() {
 
-  var yes_lower_characters = confirm ("Do you want to have lowercase characters in your password? Click "Okay" for "Yes", or click "Cancel" for "No");
+  var yes_lower_characters = confirm ("Do you want to have lowercase characters in your password? Click "Okay" for "Yes", or click "Cancel" for "No"");
   var yes_upper_characters = confirm ("Do you want to have uppercase characters in your password?");
   var yes_special_characters = confirm ("Do you want to have special characters in your password?");
   var yes_numbers = confirm ("Do you want to have numbers in your password?");

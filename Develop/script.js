@@ -16,7 +16,7 @@ var password_length;
 function passwordLength() {
 
  // User chooses password character length from between 8 to 128 characters.
-  password_length = window.prompt ("Choose the desired length of your password? Please choose from a minimum of 8 to maximum of 128 characters in length.");
+  password_length = window.prompt ("Choose the desired length of your password. Please choose from a minimum of 8 to maximum of 128 characters in length.");
     
    if (password_length >= 8 && password_length <=128) {
     confirmCharacters();
@@ -34,7 +34,7 @@ var passwordCriteria = ""
 // User chooses the characters they want in their password.
 function confirmCharacters() {
 
-  var yes_lower_characters = confirm ("Do you want to have lowercase characters in your password?");
+  var yes_lower_characters = confirm ("Do you want to have lowercase characters in your password? Click "Okay" for "Yes", or click "Cancel" for "No");
   var yes_upper_characters = confirm ("Do you want to have uppercase characters in your password?");
   var yes_special_characters = confirm ("Do you want to have special characters in your password?");
   var yes_numbers = confirm ("Do you want to have numbers in your password?");
